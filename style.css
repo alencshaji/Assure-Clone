@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.header{
+    background-color:#fff;
+    height: 60px;
+    box-shadow: 0px 10px 8px 0px rgba(0,0,0,0.07);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.microsoft{
+    display: flex;
+}
+.microsoft img{
+    width: 28px;
+    height: 28px;
+}
+.microsoft .azure{
+    margin-left: 1.5rem;
+}
+.microsoft .azure h6{
+    font-size:1.2rem;
+}
+.main-btn{
+    background-color: #89c402;
+    border: 1px solid #6f9e02;
+    border-radius: 4px;
+    color: #1a1a1f;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 9px;
+    line-height: 1;
+    text-align: center;
+    text-decoration: none;
+}
+.main-btn:hover{
+    color: #1a1a1f;
+    opacity: 0.85;
+}
+#main-btn{
+    background-color: #89c402;
+    border: 1px solid #6f9e02;
+    border-radius: 4px;
+    color: #1a1a1f;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 12px;
+    line-height: 1;
+    text-align: center;
+    text-decoration: none;
+}
+#main-btn:hover{
+    color: #1a1a1f;
+    opacity: 0.85;
+}
+.pay-btn{
+    background-color: transparent;
+    border: 1px solid #0078d4;;
+    border-radius: 4px;
+    color:#0062ad;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 620;
+    padding: 12px;
+    line-height: 1;
+    text-align: center;
+    text-decoration: none;
+    transition-property:background-color ;
+    width: fit-content;
+    margin-left: 1.5rem;
+}
+.pay-btn:hover{
+    color:white;
+    background-color: #0078d4;
+}
+.hero-sec{
+    height: 450px;
+}
+.hero-sec-image{
+    position: absolute;
+    z-index: -1;
+    overflow: hidden;
+}
+.hero-sec .row{
+    position: relative;
+}
+.row .content{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+.row .content h2{
+    padding-top: 4rem;
+    font-weight: 600;
+}
+.row .content h6{
+    padding: 1rem 0rem;
+    font-weight:600 ;
+    font-size: 1.1rem;
+}
+.hero-sec-wrapper{
+    position: relative;
+    overflow: hidden;
+}
+.service-sec .card{
+    background-color: rgb(245, 247, 249);
+    height:15rem;
+    width: 22rem;
+    padding:3rem 2rem;
+    text-align: center;
+}
