@@ -79,13 +79,14 @@
     color:white;
     background-color: #0078d4;
 }
-.hero-sec{
-    height: 450px;
+.hero-sec .row{
+    height:fit-content;
 }
 .hero-sec-image{
     position: absolute;
     z-index: -1;
     overflow: hidden;
+    height: fit-content;
 }
 .hero-sec .row{
     position: relative;
@@ -108,10 +109,66 @@
     position: relative;
     overflow: hidden;
 }
-.service-sec .card{
+/* /////Service section //////*/
+
+.service-sec-azure{
+    margin: 2.5rem 0rem;
+}
+.service-sec .service-sec-card{
     background-color: rgb(245, 247, 249);
-    height:15rem;
-    width: 22rem;
-    padding:3rem 2rem;
+    margin: 1rem;
+    text-align:center;
+    padding: 2rem;
+}
+#service-sec-card{
+    margin-left: 0rem !important;
+}
+.service-sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.service-sec .service-sec-plus{
+    text-align:center;
+    align-self: center;
+    font-size: 2rem;
+    color: #0078d4;
+}
+
+
+  
+
+/* /////// */
+.do-sec-azure{
+    margin-top: 5rem;
+
+}
+.do-sec-azure .container h3{
     text-align: center;
 }
+.do-sec-card img{
+    display: inline-block;
+    height: 48px;
+    width: 48px;
+    line-height: 0;
+    vertical-align: middle;
+    margin-bottom: 1.5rem;
+}
+.do-sec-card h6{
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+}
+.do-sec{
+    margin-top: 1rem;
+    display: flex;
+}
+.do-sec-card{
+    border: 1px solid #b8b9ba;
+    margin: 1rem;
+    text-align:left;
+    padding: 2rem;
+}
+.do-sec .card-one{
+    margin-left: 0rem !important;
+}
+/* // free service section// */
