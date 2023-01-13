@@ -110,65 +110,211 @@
     overflow: hidden;
 }
 /* /////Service section //////*/
+.service-sec-azure .container{
+    margin:20px auto;
 
-.service-sec-azure{
-    margin: 2.5rem 0rem;
+}
+.service-sec{
+    display: grid;
+    grid-template-columns: 2.5fr .5fr 2.5fr .5fr 2.5fr;
+    grid-gap: 10px;
 }
 .service-sec .service-sec-card{
     background-color: rgb(245, 247, 249);
-    margin: 1rem;
-    text-align:center;
-    padding: 2rem;
-}
-#service-sec-card{
-    margin-left: 0rem !important;
-}
-.service-sec{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.service-sec .service-sec-plus{
-    text-align:center;
-    align-self: center;
-    font-size: 2rem;
-    color: #0078d4;
-}
-
-
-  
-
-/* /////// */
-.do-sec-azure{
-    margin-top: 5rem;
-
-}
-.do-sec-azure .container h3{
+    margin:20px auto;
+    width: 100%;
+    padding: 50px;
     text-align: center;
 }
-.do-sec-card img{
-    display: inline-block;
-    height: 48px;
-    width: 48px;
-    line-height: 0;
-    vertical-align: middle;
-    margin-bottom: 1.5rem;
+.service-sec .service-sec-plus{
+    margin: auto;
+    font-size: 2rem;
+    color: #0078d4;
+    width: 100%;
+    text-align: center;
+
+}
+.service-sec .service-sec-card a{
+    text-decoration: none;
+}
+/* heading */
+.heading{
+    text-align: center;
+}
+
+/* ////do-dection/// */
+.do-sec-azure .container{
+    margin: 50px auto;
+}
+.do-sec{
+    display: grid;
+    grid-template-columns:5fr 5fr 5fr;
+    grid-gap: 10px;
+
+}
+.do-sec-card{
+    border: 1px solid #b8b9ba;
+    margin:20px auto;
+    text-align:left;
+    padding: 40px;
+    width: 100%;
 }
 .do-sec-card h6{
     margin-bottom: 2rem;
     font-size: 1.1rem;
 }
-.do-sec{
-    margin-top: 1rem;
-    display: flex;
+.do-sec-card img{
+    height: 48px;
+    width: 48px;
+    margin-bottom: 1.5rem;
 }
-.do-sec-card{
+.do-sec-card ul{
+    margin-top: -1rem;
+}
+.do-sec-card ul li::before {
+    content: "\2022";
+    color: rgb(15, 119, 223);
+    font-weight:900;
+    font-size: 25px;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }
+  .do-sec-card ul li{
+    list-style: none;
+  }
+  .try-free{
+    font-size: 16px;
+  }
+/* // free service section// */
+.free-service-sec{
+   
+    background-color: rgb(245, 247, 249);
+}
+.free-service-sec .container{
+    margin: 50px auto;
+}
+.free-service-sec .courses{
+    display: grid;
+    grid-template-columns:5fr 4fr 4fr 4fr 4fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
+    padding:3rem  0;
+    
+}
+.course-card-content{
+    grid-row-start: 1 ;
+    grid-row-end: 3;
+}
+.course-card-content h2{
+    font-size: 24px;
+}
+.course-card-content p{
+margin: 2rem 0;
+}
+.free-service-btn{
+    background-color: transparent;
+    border: 1px solid #0078d4;;
+    border-radius: 4px;
+    color:#0062ad;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 620;
+    padding: 12px;
+    line-height: 1;
+    text-align: center;
+    text-decoration: none;
+    transition-property:background-color ;
+    width: fit-content;
+}
+.free-service-btn:hover{
+    color:white;
+    background-color: #0078d4;
+}
+
+.free-service-sec .courses h6{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 13px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.free-service-sec .courses img{
+    width: 48px;
+    height: 48px;
+    margin:1.5rem 0;
+}
+.free-service-sec .courses h5{
+    text-transform: capitalize;
+    font-size: 15px;
+    margin-bottom: 1rem;
+}
+.free-service-sec .courses .card{
     border: 1px solid #b8b9ba;
-    margin: 1rem;
-    text-align:left;
+    text-align: left;
+    padding: 1.5rem;
+}
+
+/* //extra services */
+.extra-services{
+    margin: 20px;
+}
+
+.extra-services .container{
+    background-color: #1a1a1f;
+    
+}
+
+.extra-services .extra-content{
+    display: grid;
+    grid-template-columns: 6fr 4fr;
+    margin: auto;
+}
+.extra-services .extra-content .first-sec{
+    margin:4rem auto;
+}
+.extra-services .extra-content h2{
+    color: #50e6ff;
+    font-size: 3rem;
+    
+}
+.extra-services .extra-content h6{
+    color: #fff;
+    font-size: 1.5rem;
+}
+.extra-services .extra-content .image-extra{
+    width: 48px;
+    height: 48px;
+}
+.extra-services .extra-content .second-sec{
+    margin:auto;
+    border-style: solid;
+    border-left-color:#fff;
     padding: 2rem;
 }
-.do-sec .card-one{
-    margin-left: 0rem !important;
+.storage-service{
+    display: flex;
+    margin-bottom: 10px;
 }
-/* // free service section// */
+.second-sec p{
+    color: #fff;
+    padding-left: 1rem;
+    align-self: center;
+}
+.media-service{
+    display: flex;
+
+}
+
+/* payment-sec */
+.payment{
+   
+    margin: 20px;
+}
+.payment .container{
+   display:flex;
+}
+.payment .payment-details{
+    margin:auto;
+    text-align: center;
+
+}
