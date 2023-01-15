@@ -282,8 +282,8 @@ margin: 2rem 0;
     font-size: 1.5rem;
 }
 .extra-services .extra-content .image-extra{
-    width: 48px;
-    height: 48px;
+    width: 24px;
+    height: 24px;
 }
 .extra-services .extra-content .second-sec{
     margin:auto;
@@ -307,8 +307,8 @@ margin: 2rem 0;
 
 /* payment-sec */
 .payment{
-   
     margin: 20px;
+    margin-top: 6rem !important;
 }
 .payment .container{
    display:flex;
@@ -316,5 +316,7 @@ margin: 2rem 0;
 .payment .payment-details{
     margin:auto;
     text-align: center;
-
+}
+.payment .payment-details a{
+    margin: 1.5rem 0;
 }
