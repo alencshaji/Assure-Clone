@@ -236,6 +236,7 @@ margin: 2rem 0;
     background-color: #0078d4;
 }
 
+
 .free-service-sec .courses h6{
     text-transform: uppercase;
     font-weight: 400;
@@ -257,6 +258,13 @@ margin: 2rem 0;
     text-align: left;
     padding: 1.5rem;
     position: inherit;
+    
+}
+.free-service-sec .card:hover{
+    box-shadow: 2px 5px  rgb(213, 212, 212,0.6),
+    -2px 0px rgb(213, 212, 212,0.7)
+    ;
+    cursor: pointer;
 }
 
 /* //extra services */
@@ -366,6 +374,9 @@ margin: 2rem 0;
     opacity: 0.85;
 }
 
+.explore-sec-res{
+    display: none;
+}
 
 
 
@@ -375,7 +386,8 @@ margin: 2rem 0;
 
 .about-azure .about-sec{
     display: grid;
-    grid-template-columns: 4fr 4fr 4fr;
+    grid-template-columns: 5fr 5fr 5fr;
+    
 }
 .about-sec-one{
     color: #080807;
@@ -437,7 +449,7 @@ margin: 2rem 0;
 
 footer{
     background-color: rgb(245, 247, 249);
-    padding: 3rem 0;
+    padding-top: 3rem;
 
 }
 .footer-sections{
@@ -451,6 +463,9 @@ footer{
     text-decoration: none;
     font-size: 13px;
     color: #080807;margin: 0rem .2rem;
+}
+#language{
+    padding:0 1rem;
 }
 /* mdeia */
 
@@ -472,16 +487,74 @@ footer{
         flex-wrap: wrap;
     
     }
-   .free-service-sec .courses{
-    display: grid;
-    grid-template-columns:5fr;
-    grid-gap: 10px;
-    width:fit-content;
-    padding:3rem  0;
-    display: flex;
-    flex-flow: row;
-    flex-wrap: wrap;
-    
+    .free-service-sec .courses{
+        display: grid;
+        grid-template-columns:5fr;
+        grid-gap: 10px;
+        padding:3rem  0;
+        
     }
-    
+
+    .extra-services .extra-content{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .extra-services .extra-content .second-sec{
+        margin:0 0 !important;
+        border: none !important;
+        padding: 0rem !important;
+    }
+    .explore-sec{
+    display: none;
+    }
+    .explore-sec-wrapper{
+        background-image:url(/Images/free-account-demo.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        padding: 6rem !important;
+        margin: 0rem  !important;
+        
+    }
+    .explore-sec-res{
+        display: block;
+        background-color: #080807;
+        padding: 2rem;
+        color: #fff;
+        width:100%;
+        margin-bottom:1rem ;
+    }
+    .about-azure .about-sec{
+        display: flex;
+        flex-flow: row;
+        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: 5fr ;
+    }
+    .review-sec{
+        display: grid;
+        grid-template-columns: 4fr;
+        row-gap: 3rem;
+    }
+    .footer-sections{
+        display: grid;
+        grid-template-columns: 4fr;
+        row-gap: 1rem;
+    }
+}
+
+.chat-box{
+    width: fit-content;
+    background-color: #49a0e8;
+    padding:.4rem;
+    float:right;
+    text-decoration: none;
+}
+.chat-box a{
+    color: #fff;
+}
+.chat-box a:hover{
+    color: #fff;
+}
+.chat-box img{
+    margin: 5px;
 }
