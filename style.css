@@ -470,6 +470,12 @@ footer{
 /* mdeia */
 
 @media only screen and (max-width: 850px) {
+    .microsoft{
+        margin-left: .2rem;
+    }
+    .start-free{
+        margin-right: .2rem;
+    }
     .hero-sec-wrapper{
         background-image:none;
         background-color: rgb(245, 247, 249);
