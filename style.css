@@ -468,6 +468,26 @@ footer{
     padding:0 1rem;
 }
 /* mdeia */
+@media only screen and (max-width: 373px){
+.hero-sec-wrapper{
+  padding: 4rem 0rem !important;
+    
+     }
+}
+@media only screen and (max-width: 241px){
+    #main-btn{
+font-size: 9px;
+    }
+    .pay-btn{
+font-size: 9px;
+margin-top: 1rem;
+
+    }
+.main-btn{
+    font-size: 10px;
+}
+
+}
 
 @media only screen and (max-width: 850px) {
     .microsoft{
@@ -547,6 +567,9 @@ footer{
         row-gap: 1rem;
     }
 }
+
+
+/* chat-button */
 
 .chat-box{
     width: fit-content;
