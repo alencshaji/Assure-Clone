@@ -99,11 +99,14 @@
 .row .content h2{
     padding-top: 2rem;
     font-weight: 600;
+    font-size: 36px;
+    line-height: 42px;
 }
 .row .content h6{
     padding: 1rem 0rem;
     font-weight:600 ;
-    font-size: 1.1rem;
+    font-size: 18px;
+    line-height: 25.4px;
 }
 .hero-sec-wrapper{
     background-image: url(/Images/free-hero.png);
@@ -127,8 +130,13 @@
     background-color: rgb(245, 247, 249);
     margin:20px auto;
     width: 100%;
-    padding: 50px;
+    padding:3rem 1rem 3rem 1rem;
+    padding-top: 3rem;
     text-align: center;
+}
+.service-sec .service-sec-card h2{
+    font-size: 36px;
+    line-height: 43.2px;
 }
 .service-sec .service-sec-plus{
     margin: auto;
@@ -140,10 +148,15 @@
 }
 .service-sec .service-sec-card a{
     text-decoration: none;
+    font-size: 14px;
 }
 /* heading */
 .heading{
     text-align: center;
+}
+.heading h3{
+    font-size: 24px;
+    line-height: 28px;
 }
 
 /* ////do-dection/// */
@@ -163,9 +176,14 @@
     padding: 40px;
     width: 100%;
 }
+.do-sec-card p{
+    font-size: 16px;
+    line-height: 24px;
+}
 .do-sec-card h6{
     margin-bottom: 2rem;
-    font-size: 1.1rem;
+    font-size: 18px;
+    line-height: 23.4px;
 }
 .do-sec-card img{
     height: 48px;
@@ -186,9 +204,14 @@
   }
   .do-sec-card ul li{
     list-style: none;
+    color: #4c4c51;
+    font-size: 16px;
+    
   }
   .try-free{
-    font-size: 16px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #747479;
   }
 /* // free service section// */
 .free-service-sec{
@@ -210,6 +233,7 @@
     grid-row-start: 1 ;
     grid-row-end: 3;
 }
+
 .course-card-content h2{
     font-size: 24px;
 }
@@ -235,13 +259,19 @@ margin: 2rem 0;
     color:white;
     background-color: #0078d4;
 }
-
-
+@media only screen and (max-width: 530px){
+    .free-service-btn{
+         width:100%;
+    }
+    .btn-width{
+        width:100%;
+    }
+}
 .free-service-sec .courses h6{
-    text-transform: uppercase;
     font-weight: 400;
-    font-size: 13px;
+    font-size: 12px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #4c4c51;
 }
 .free-service-sec .courses img{
     width: 48px;
@@ -250,15 +280,15 @@ margin: 2rem 0;
 }
 .free-service-sec .courses h5{
     text-transform: capitalize;
-    font-size: 15px;
+    font-size: 16px;
+    
     margin-bottom: 1rem;
 }
 .free-service-sec .courses .card{
     border: 1px solid #b8b9ba;
     text-align: left;
     padding: 1.5rem;
-    position: inherit;
-    
+    position: inherit;  
 }
 .free-service-sec .card:hover{
     box-shadow: 2px 5px  rgb(213, 212, 212,0.6),
@@ -271,12 +301,9 @@ margin: 2rem 0;
 .extra-services{
     margin: 20px;
 }
-
 .extra-services .container{
-    background-color: #1a1a1f;
-    
+    background-color: #1a1a1f;  
 }
-
 .extra-services .extra-content{
     display: grid;
     grid-template-columns: 6fr 4fr;
@@ -288,12 +315,13 @@ margin: 2rem 0;
 }
 .extra-services .extra-content h2{
     color: #50e6ff;
-    font-size: 3rem;
-    
+    font-size:54px;
+    line-height: 59.4px; 
 }
 .extra-services .extra-content h6{
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 16px;
+    line-height: 24px;
 }
 .extra-services .extra-content .image-extra{
     width: 24px;
@@ -316,7 +344,6 @@ margin: 2rem 0;
 }
 .media-service{
     display: flex;
-
 }
 
 /* payment-sec */
@@ -334,19 +361,22 @@ margin: 2rem 0;
 .payment .payment-details a{
     margin: 1.5rem 0;
 }
-
-
-
-
-
+.payment .payment-details a h3{
+    font-size: 24px;
+    line-height: 28.8px;
+}
+.payment .payment-details a p{
+    font-size: 18px;
+    line-height: 23.4px;
+    color: #4c4c51;
+}
 /* explore section ///*/
 .explore-sec-wrapper{
     background-image:url(/Images/free-account-demo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     padding: 4rem;
-    margin: 3rem 0;
-    
+    margin: 3rem 0;  
 }
 .explore-content{
     background-color: #080807;
@@ -354,6 +384,14 @@ margin: 2rem 0;
     color: #fff;
     width: fit-content;
     margin: 2rem 0;
+}
+.explore-content h3{
+    font-size: 24px;
+    line-height: 28.8px;
+}
+.explore-content p{
+    font-size: 16px;
+    line-height: 24px;
 }
 
 #register-btn{
@@ -373,15 +411,9 @@ margin: 2rem 0;
     background-color:#0078d4;
     opacity: 0.85;
 }
-
 .explore-sec-res{
     display: none;
 }
-
-
-
-
-
 /* about azure */
 
 .about-azure .about-sec{
@@ -394,13 +426,15 @@ margin: 2rem 0;
 }
 .about-sec-two p{
     padding:.1rem 0;
-    font-size: 13px;
-    font-weight:600 ;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight:500 ;
+    color: #0062ad;
 }
 .about-sec-three p{
     padding-top: .3rem;
-    font-size: 13px;
-    font-weight:600 ;
+    font-size: 14px;
+    font-weight:500 ;
 }
 .about-sec-three h5{
     padding-bottom: .3rem;
@@ -413,6 +447,7 @@ margin: 2rem 0;
     margin-top: 4rem;
     color: #080807;
     text-align: center;
+    font-size: 24px;
 }
 .review-sec{
     display: grid;
@@ -422,8 +457,10 @@ margin: 2rem 0;
 .review{
     margin: 3rem 0;
 }
-.review .review-sec img{
+.review .review-sec h1{
     padding: 1rem 0;
+    font-size: 3rem;
+    color: #0078d4;
 }
 .review .review-sections{
     background-color: rgb(245, 247, 249);
@@ -432,6 +469,8 @@ margin: 2rem 0;
 .review .review-sections a{
     text-decoration: none;
     font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
     color: #080807;
     cursor: default;
 }
@@ -441,7 +480,7 @@ margin: 2rem 0;
 }
 .end-details{
     text-align: center;
-    font-size: 15px;
+    font-size: 14px;
     margin: 4rem 0;
 }
 
@@ -450,7 +489,6 @@ margin: 2rem 0;
 footer{
     background-color: rgb(245, 247, 249);
     padding-top: 3rem;
-
 }
 .footer-sections{
     display: grid;
@@ -467,14 +505,17 @@ footer{
 #language{
     padding:0 1rem;
 }
-/* mdeia */
-@media only screen and (max-width: 373px){
+/* media */
+@media only screen and (max-width: 500px){
 .hero-sec-wrapper{
   padding: 4rem 0rem !important;
     
      }
+.hero-sec-wrapper .content{
+    width: 100%;
+}  
 }
-@media only screen and (max-width: 241px){
+@media only screen and (max-width: 282px){
     #main-btn{
 font-size: 9px;
     }
@@ -493,6 +534,7 @@ margin-top: 1rem;
     .microsoft{
         margin-left: .2rem;
     }
+
     .start-free{
         margin-right: .2rem;
     }
@@ -511,7 +553,6 @@ margin-top: 1rem;
         display: flex;
         flex-flow: row;
         flex-wrap: wrap;
-    
     }
     .free-service-sec .courses{
         display: grid;
@@ -520,7 +561,18 @@ margin-top: 1rem;
         padding:3rem  0;
         
     }
-
+    @media (max-width:850px){
+        .free-service-sec .courses{
+        grid-template-columns: 5fr 5fr;
+        }
+        .course-card-content{
+            grid-row-start: 1 ;
+            grid-row-end: 2;
+            grid-column-start: 1;
+            grid-column-end: 3;
+            
+        }
+    }
     .extra-services .extra-content{
         display: flex;
         flex-wrap: wrap;
@@ -538,8 +590,7 @@ margin-top: 1rem;
         background-size:cover;
         background-repeat: no-repeat;
         padding: 6rem !important;
-        margin: 0rem  !important;
-        
+        margin: 0rem  !important;   
     }
     .explore-sec-res{
         display: block;
@@ -564,11 +615,9 @@ margin-top: 1rem;
     .footer-sections{
         display: grid;
         grid-template-columns: 4fr;
-        row-gap: 1rem;
+        row-gap: 1rem; 
     }
 }
-
-
 /* chat-button */
 
 .chat-box{
